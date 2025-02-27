@@ -17,6 +17,7 @@ Install-Module -Name PSRule.Rules.CAF
 Go to infrastructure folder and run following command:
 
 ```PowerShell
+cd .\infrastructure\
 Assert-PSRule -Path .\tests\psrule\.ps-rule\ -InputPath .\ -Option .\tests\psrule\ps-rule.yaml
 ```
 
