@@ -2,7 +2,7 @@
 
 Validate infrastructure as code (IaC) and objects using PowerShell rules.
 
-About PSRule and PSRule for Azure in relation to CAF.
+About PSRule and PSRule for Azure about CAF.
 
 ## What and how to install
 
@@ -14,16 +14,14 @@ Install-Module -Name PSRule.Rules.CAF
 
 ## How to run
 
-Go to infrastructure folder and run following command:
+Go to the infrastructure folder and run the following command:
 
 ```PowerShell
 cd .\infrastructure\
 Assert-PSRule -Path .\tests\psrule\.ps-rule\ -InputPath .\ -Option .\tests\psrule\ps-rule.yaml
 ```
 
-## Complete command line
-
-Use our own test code:
+## Complete command line in PowerShell
 
 ```PowerShell
  .\psrule.ps1
@@ -54,11 +52,11 @@ The test results of the PSRule are published in the pipeline for documentation a
 
 ## Environment configuration
 
-By using environment, it is possible to have different ps-rule configuration for different environment.
+By using the environment, it is possible to have different ps-rule configurations for various environments.
 
 ## Security by Design and ISO27001
 
-By following PSRule for Azure you validate a lot of controls that matters for ISO27001 compliance. Which mean it is easier to document ISO27001 compliance for customer if required.
+By following PSRule for Azure, you validate many controls that matter for ISO27001 compliance. This makes it easier for customers to document ISO27001 compliance at a later point if required.
 
 Reference:
 
